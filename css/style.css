@@ -37,6 +37,10 @@ p{
 img{
     width: 100%;
 }
+.hidden{
+    visibility: hidden;
+    height: 0;
+}
 /* Navbar */
 .navbar{
     background-color:var(--primary-color) ;
@@ -282,10 +286,7 @@ padding: 30px;
     grid-row: 1;
     grid-column: 1;
 }
-.hidden{
-    visibility: hidden;
-    height: 0;
-}
+
 .product-head,
 .sales-head,
 .product-sub-head{
